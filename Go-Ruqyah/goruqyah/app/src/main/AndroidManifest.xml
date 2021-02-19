@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.go_ruqyah">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.GoRuqyah"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".View.Checkout">
+
+        </activity>
+        <activity android:name=".View.Pesanruqyah" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyBiqWVDEm2PKqSKuTCTo5rNyPmVboFfzYE" />
+
+        <activity android:name=".View.peruqyah" />
+        <activity android:name=".View.Daftarruqyah" />
+        <activity android:name=".View.Ruqyahmandiri" />
+        <activity android:name=".View.Akunku" />
+        <activity android:name=".View.Signup" />
+        <activity android:name=".View.Signin" />
+        <activity android:name=".View.InfoApp" />
+        <activity android:name=".View.Splashscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".View.MainActivity" />
+    </application>
+
+</manifest>

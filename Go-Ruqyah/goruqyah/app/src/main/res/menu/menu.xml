@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+    <item
+        android:id="@+id/call_center"
+        android:title="@string/callcenter"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/sms_center"
+        android:title="@string/smscenter"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/lokasi"
+        android:title="@string/Lokasi"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/akun"
+        android:title="@string/akun"
+        app:showAsAction="never"
+        />
+
+</menu>

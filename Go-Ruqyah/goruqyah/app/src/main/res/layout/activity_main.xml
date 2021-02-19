@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg1"
+    tools:context=".View.MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="36dp"
+        android:fontFamily="@font/cambria"
+        android:text="@string/selamatdatang"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/nametext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/cambria"
+        android:paddingStart="36dp"
+        android:textColor="@color/white"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        app:layout_constraintHorizontal_bias="0.241"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <Button
+        android:id="@+id/menubtn"
+        android:layout_width="25dp"
+        android:layout_height="21dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="24dp"
+        android:background="@drawable/menu_btn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/logout_btn"
+        android:layout_width="25dp"
+        android:layout_height="21dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="32dp"
+        android:background="@drawable/ic_logout"
+        app:layout_constraintEnd_toStartOf="@+id/menubtn"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/menubg_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="500dp"
+        android:background="@drawable/bgmenu"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/gridmenu_iv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        app:layout_constraintEnd_toEndOf="@+id/menubg_view"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/garismenu"
+        app:srcCompat="@drawable/grdmenu" />
+
+    <ImageButton
+        android:id="@+id/silaturahmi_icn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/silaturahmi_icon"
+        app:layout_constraintStart_toStartOf="@+id/gridmenu_iv"
+        app:layout_constraintTop_toTopOf="@+id/gridmenu_iv" />
+
+    <ImageButton
+        android:id="@+id/informasi_icn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/about_icon"
+        app:layout_constraintEnd_toStartOf="@+id/callcenter_icn"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/silaturahmi_icn"
+        app:layout_constraintTop_toTopOf="@+id/gridmenu_iv" />
+
+    <ImageButton
+        android:id="@+id/callcenter_icn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="28dp"
+        android:background="@drawable/callcenter_icon"
+        app:layout_constraintEnd_toEndOf="@+id/gridmenu_iv"
+        app:layout_constraintTop_toTopOf="@+id/gridmenu_iv" />
+
+    <TextView
+        android:id="@+id/silaturahmi_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="5dp"
+        android:fontFamily="@font/cambria"
+        android:text="@string/silaturahmi"
+        android:textColor="@color/white"
+        android:textSize="13sp"
+        app:layout_constraintStart_toStartOf="@+id/gridmenu_iv"
+        app:layout_constraintTop_toBottomOf="@+id/silaturahmi_icn" />
+
+    <TextView
+        android:id="@+id/informasi_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:fontFamily="@font/cambria"
+        android:text="@string/informasi"
+        android:textColor="@color/white"
+        android:textSize="13sp"
+        app:layout_constraintEnd_toStartOf="@+id/callcenter_txt"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/silaturahmi_txt"
+        app:layout_constraintTop_toBottomOf="@+id/informasi_icn" />
+
+    <TextView
+        android:id="@+id/callcenter_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="25dp"
+        android:fontFamily="@font/cambria"
+        android:text="@string/callcenter"
+        android:textColor="@color/white"
+        android:textSize="13sp"
+        app:layout_constraintEnd_toEndOf="@+id/gridmenu_iv"
+        app:layout_constraintTop_toBottomOf="@+id/callcenter_icn" />
+
+    <ImageButton
+        android:id="@+id/pesanruqyah_icn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/pesanruqyah_icon"
+        app:layout_constraintStart_toStartOf="@+id/gridmenu_iv"
+        app:layout_constraintTop_toBottomOf="@+id/gridmenu_iv" />
+
+    <ImageButton
+        android:id="@+id/ruqyahmandiri_icn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/ruqyahmandiri_icon"
+        app:layout_constraintEnd_toStartOf="@+id/konsultasi_icn"
+        app:layout_constraintStart_toEndOf="@+id/pesanruqyah_icn"
+        app:layout_constraintTop_toBottomOf="@+id/gridmenu_iv" />
+
+    <ImageButton
+        android:id="@+id/alquran_icn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/alquran_icon"
+        app:layout_constraintStart_toStartOf="@+id/pesanruqyah_txt"
+        app:layout_constraintTop_toBottomOf="@+id/pesanruqyah_txt" />
+
+    <TextView
+        android:id="@+id/pesanruqyah_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/cambria"
+        android:text="@string/daftarruqyah"
+        android:textColor="@color/bg1"
+        android:textSize="13sp"
+        app:layout_constraintEnd_toEndOf="@+id/pesanruqyah_icn"
+        app:layout_constraintStart_toStartOf="@+id/pesanruqyah_icn"
+        app:layout_constraintTop_toBottomOf="@+id/pesanruqyah_icn" />
+
+    <TextView
+        android:id="@+id/ruqyahmandiri_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/cambria"
+        android:text="@string/ruqyahmandiri"
+        android:textColor="@color/bg1"
+        android:textSize="13sp"
+        app:layout_constraintEnd_toEndOf="@+id/ruqyahmandiri_icn"
+        app:layout_constraintStart_toStartOf="@+id/ruqyahmandiri_icn"
+        app:layout_constraintTop_toBottomOf="@+id/ruqyahmandiri_icn" />
+
+    <TextView
+        android:id="@+id/alquran_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/cambria"
+        android:text="Al-Qur'an"
+        android:textColor="@color/bg1"
+        android:textSize="13sp"
+        app:layout_constraintEnd_toEndOf="@+id/alquran_icn"
+        app:layout_constraintStart_toStartOf="@+id/alquran_icn"
+        app:layout_constraintTop_toBottomOf="@+id/alquran_icn" />
+
+    <ImageButton
+        android:id="@+id/konsultasi_icn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/konsultasionline_icon"
+        app:layout_constraintEnd_toEndOf="@+id/gridmenu_iv"
+        app:layout_constraintTop_toBottomOf="@+id/gridmenu_iv" />
+
+    <ImageButton
+        android:id="@+id/dzikir_icn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/dzikir_icon"
+        app:layout_constraintEnd_toStartOf="@+id/konsultasi_txt"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/alquran_icn"
+        app:layout_constraintTop_toBottomOf="@+id/ruqyahmandiri_txt" />
+
+    <ImageButton
+        android:id="@+id/ziarahmakam_icn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/ziarah_icon"
+        app:layout_constraintEnd_toEndOf="@+id/konsultasi_txt"
+        app:layout_constraintTop_toBottomOf="@+id/konsultasi_txt" />
+
+    <TextView
+        android:id="@+id/konsultasi_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/cambria"
+        android:text="@string/konsultasionline"
+        android:textColor="@color/bg1"
+        android:textSize="13sp"
+        app:layout_constraintEnd_toEndOf="@+id/konsultasi_icn"
+        app:layout_constraintStart_toStartOf="@+id/konsultasi_icn"
+        app:layout_constraintTop_toBottomOf="@+id/konsultasi_icn" />
+
+    <TextView
+        android:id="@+id/dzikir_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/cambria"
+        android:text="@string/dzikir"
+        android:textColor="@color/bg1"
+        android:textSize="13sp"
+        app:layout_constraintEnd_toEndOf="@+id/dzikir_icn"
+        app:layout_constraintStart_toStartOf="@+id/dzikir_icn"
+        app:layout_constraintTop_toBottomOf="@+id/dzikir_icn" />
+
+    <TextView
+        android:id="@+id/ziarah_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/cambria"
+        android:text="@string/ziarahmakam"
+        android:textColor="@color/bg1"
+        android:textSize="13sp"
+        app:layout_constraintEnd_toEndOf="@+id/ziarahmakam_icn"
+        app:layout_constraintStart_toStartOf="@+id/ziarahmakam_icn"
+        app:layout_constraintTop_toBottomOf="@+id/ziarahmakam_icn" />
+
+    <ImageView
+        android:id="@+id/garismenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/menubg_view"
+        app:srcCompat="@drawable/garisbgmenu" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

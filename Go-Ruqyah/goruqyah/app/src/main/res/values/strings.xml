@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Go-Ruqyah</string>
+    <string name="selamatdatang">Selamat Datang,</string>
+    <string name="silaturahmi">Silaturahmi</string>
+    <string name="informasi">Informasi</string>
+    <string name="callcenter">Call Center</string>
+    <string name="daftarruqyah">Daftar Ruqyah</string>
+    <string name="ruqyahmandiri">Ruqyah Mandiri</string>
+    <string name="konsultasionline">Konsultasi Online</string>
+    <string name="dzikir">Dzikir</string>
+    <string name="ziarahmakam">Ziarah Makam</string>
+    <string name="goruqyah">Go-Ruqyah</string>
+    <string name="info_app">
+        Go-Ruqyah adalah aplikasi yang dapat melakukan pemesanan ruqyah secara online. Pada dasarnya aplikasi Go-Ruqyah juga mempunyai beberapa fasilitas yaitu yang utama pemesanan ruqyah, ruqyah mandiri, ayat-ayat Al-Quran, konsultasi online, dzikir dan rekomendasi tempat ziarah makam para wali. Go-Ruqyah juga dapat melihat lokasi dan peruqyah secara realtime pada maps.
+    </string>
+    <string name="ataulogindengan">Atau login dengan</string>
+    <string name="belumpunyaakun">Belum punya akun?</string>
+    <string name="smscenter">SMS Center</string>
+    <string name="Lokasi">Lokasi</string>
+    <string name="akun">Pengaturan Akun</string>
+    <string name="fullname">Nama Lengkap</string>
+    <string name="username">Username</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="loginready">Sudah punya akun? Masuk disini</string>
+    <string name="signupready">Belum punya akun? Daftar disini</string>
+    <string name="pengaturanakun">Pengaturan Akun</string>
+    <string name="logout">Logout</string>
+    <string name="nama_peruqyah">Nama Peruqyah</string>
+    <string name="alamat_peruqyah">Alamat Peruqyah</string>
+    <string name="rating_peruqyah">Rating Peruqyah</string>
+    <string name="ubah_password">Ubah Password</string>
+    <string name="pemesanan_ruqyah">Pemesanan Ruqyah</string>
+    <string name="alamat">Alamat</string>
+    <string name="bekam">Bekam</string>
+    <string name="gurah">Gurah</string>
+
+
+</resources>

@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">SMerch Shop</string>
+    <string name="title_activity_splash">SplashActivity</string>
+    <string name="nama_makanan">Nama Makanan</string>
+    <string name="fullname" />
+    <string name="Nama" />
+    <string name="nama" />
+    <string name="email" />
+    <string name="alamat" />
+    <string name="gender" />
+    <string name="no_hp" />
+    <string name="password" />
+    <string name="call_center">Call Center</string>
+    <string name="lokasi">Lokasi</string>
+    <string name="pengaturan_akun">Pengaturan Akun</string>
+    <!-- Strings used for fragments for navigation -->
+</resources>

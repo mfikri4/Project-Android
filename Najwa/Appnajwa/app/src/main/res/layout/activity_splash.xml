@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Splash"
+    android:background="@color/white">
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:id="@+id/logo"
+        android:transitionName="logo_image"
+        android:layout_centerInParent="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/smerch"
+        android:foregroundGravity="center" />
+
+    <TextView
+        android:id="@+id/textview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:layout_marginTop="150dp"
+        android:text="Welcome"
+        android:fontFamily="@font/pumpkin_story"
+        android:transitionName="logo_text"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/textview1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Enjoy Your Shopping !!"
+        android:fontFamily="@font/pumpkin_story"
+        android:layout_marginTop="230dp"
+        android:gravity="center"
+        android:textSize="30sp"/>
+
+
+</RelativeLayout>
